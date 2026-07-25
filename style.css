@@ -53,6 +53,63 @@ header{
     padding:80px 20px;
 }
 
+<section id="courses">
+
+    <h2 class="title">What We Teach</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>📚 Vocabulary</h2>
+            <p>
+                Learn daily English words with Turkish explanations,
+                pronunciation and useful examples.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>📖 Grammar</h2>
+            <p>
+                Easy English grammar lessons explained completely in Turkish.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🎧 Pronunciation</h2>
+            <p>
+                Improve your English pronunciation using Turkish guidance
+                and IPA symbols.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>💬 Speaking</h2>
+            <p>
+                Practice real-life English conversations with Turkish
+                translations.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>✍️ Writing</h2>
+            <p>
+                Learn how to write English sentences, messages and emails
+                correctly.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🎯 Exam Preparation</h2>
+            <p>
+                Prepare for English exams with vocabulary, grammar and
+                practice exercises.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
 .logo{
     width:150px;
     height:150px;
