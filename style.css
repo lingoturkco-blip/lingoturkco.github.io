@@ -110,6 +110,9 @@ h1{
 
 .btn:hover{
     transform:translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(255,213,79,.35);
 }
 
 /* Sections */
