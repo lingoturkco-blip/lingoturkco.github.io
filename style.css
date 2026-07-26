@@ -111,17 +111,16 @@ header{
 </section>
 
 .logo{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    background:#FFD54F;
-    color:#0f172a;
     display:flex;
     justify-content:center;
     align-items:center;
     margin:auto;
-    font-size:55px;
-    font-weight:bold;
+}
+
+.logo img{
+    width:150px;
+    height:150px;
+    object-fit:contain;
 }
 
 h1{
