@@ -57,14 +57,14 @@ header{
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:auto;
-}
-.logo img{
-    width:500px;
-    max-width:90%;
-    height:auto;
+    margin-bottom:25px;
 }
 
+.logo img{
+    width:360px;
+    max-width:80%;
+    height:auto;
+}
 h1{
     margin-top:30px;
     font-size:72px;
