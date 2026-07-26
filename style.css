@@ -187,3 +187,26 @@ h1{
 }
 
 }
+
+/* Floating Logo */
+
+.logo img{
+    animation: float 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px rgba(255,213,79,.35));
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
