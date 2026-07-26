@@ -88,9 +88,23 @@ h1{
     align-items:center;
     justify-content:center;
     gap:12px;
+
+    padding:18px 45px;
+    background:#FFD54F;
+
+    color:#111827;
+
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+
+    border-radius:12px;
+
+    transition:.3s;
 }
 
 .btn i{
+    color:#111827;
     font-size:24px;
 }
 
