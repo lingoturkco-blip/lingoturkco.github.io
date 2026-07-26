@@ -117,10 +117,8 @@ header{
     margin:auto;
 }
 .logo img{
-    width:220px;
-    height:auto;
-    display:block;
-    margin:0 auto 30px;
+    width: 280px;
+    height: auto;
 }
 
 h1{
