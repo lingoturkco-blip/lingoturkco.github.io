@@ -60,7 +60,8 @@ header{
     margin:auto;
 }
 .logo img{
-    width:min(420px, 80%);
+    width:500px;
+    max-width:90%;
     height:auto;
 }
 
