@@ -116,11 +116,11 @@ header{
     align-items:center;
     margin:auto;
 }
-
 .logo img{
-    width:150px;
-    height:150px;
+    width:160px;
+    height:160px;
     object-fit:contain;
+    border-radius:20px;
 }
 
 h1{
