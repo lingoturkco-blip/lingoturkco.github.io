@@ -44,6 +44,25 @@ body{
     text-decoration:none;
     font-weight:bold;
     transition:.3s;
+
+    position:relative;
+    padding-bottom:6px;
+}
+
+.menu a::after{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:0;
+    height:2px;
+
+    background:#FFD54F;
+
+    transition:.35s ease;
 }
 
 .menu a:hover{
