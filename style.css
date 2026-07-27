@@ -167,6 +167,11 @@ section{
     margin-bottom:40px;
 }
 
+#about .card{
+    max-width:900px;
+    margin:auto;
+}
+
 .grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
