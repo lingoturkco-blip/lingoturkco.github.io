@@ -33,12 +33,6 @@ body{
     font-weight:bold;
 }
 
-.menu{
-    display:flex;
-    list-style:none;
-    gap:30px;
-}
-
 .menu a{
     color:white;
     text-decoration:none;
@@ -67,6 +61,10 @@ body{
 
 .menu a:hover{
     color:#FFD54F;
+}
+
+.menu a:hover::after{
+    width:100%;
 }
 
 /* Hero */
