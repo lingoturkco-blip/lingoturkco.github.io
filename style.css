@@ -76,14 +76,15 @@ body{
 /* Hero */
 
 header{
-    min-height:calc(100vh - 85px);
+    min-height:calc(100vh - 70px);
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-
-    padding:20px;
     text-align:center;
+
+    padding:0 20px;
+    margin-top:-25px;
 }
 
 .logo{
@@ -94,8 +95,10 @@ header{
 
 .logo img{
     width:340px;
+    display:block;
+    margin:0;
+
     animation:float 4s ease-in-out infinite;
-    margin-bottom:0px;
 
     filter:
         drop-shadow(0 0 12px rgba(255,213,79,.18))
@@ -103,8 +106,10 @@ header{
 }
 
 header h1{
-    margin-top:0px;
+    margin:0;
     font-size:64px;
+    line-height:1.1;
+
     background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
