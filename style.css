@@ -111,10 +111,10 @@ header h1{
     background-clip:text;
 }
 
-.subtitle{
-    margin-top:12px;
-    font-size:26px;
-    color:#ddd;
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
 }
 
 .buttons{
