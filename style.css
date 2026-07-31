@@ -236,10 +236,12 @@ footer{
 }
 
 #contact .buttons{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    flex-wrap:wrap;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
 }
 
 /* Mobile */
