@@ -179,7 +179,16 @@ margin-bottom:50px;
 }
 
 #about .card{
-    text-align:center;
+max-width:1000px;
+margin:auto;
+text-align:center;
+padding:50px;
+}
+
+#about .card p{
+font-size:22px;
+line-height:1.8;
+color:#e5e7eb;
 }
 
 .grid{
