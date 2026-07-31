@@ -106,7 +106,7 @@ header{
 
 header h1{
     margin:0;
-    font-size:20px;
+    font-size:clamp(52px, 6vw, 72px);
     line-height:1.1;
 
     background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
@@ -267,7 +267,10 @@ h1{
 }
 
 .subtitle{
-    font-size:22px;
+    margin-top:15px;
+    font-size:clamp(22px,2vw,30px);
+    color:#ddd;
+    line-height:1.4;
 }
 
 .logo{
