@@ -106,12 +106,15 @@ header{
 
 header h1{
     margin:0;
-    font-size:72px !important;
+    font-size:clamp(52px,6vw,72px);
     line-height:1.1;
+    font-weight:800;
+    letter-spacing:-2px;
     background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     background-clip:text;
+    text-shadow:0 0 35px rgba(255,213,79,.18);
 }
 
 section{
