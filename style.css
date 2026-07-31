@@ -77,7 +77,7 @@ body{
 
 header{
     text-align:center;
-    padding:30px 20px 20px;
+    padding:20px 20px 30px;
 }
 
 .logo{
@@ -87,7 +87,7 @@ header{
 }
 
 .logo img{
-    width:400px;
+    width:340px;
     animation:float 4s ease-in-out infinite;
     margin-bottom:0px;
 
@@ -98,7 +98,7 @@ header{
 
 header h1{
     margin-top:0px;
-    font-size:72px;
+    font-size:64px;
     background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
@@ -106,13 +106,13 @@ header h1{
 }
 
 .subtitle{
-    margin-top:20px;
-    font-size:30px;
+    margin-top:12px;
+    font-size:26px;
     color:#ddd;
 }
 
 .buttons{
-    margin-top:45px;
+    margin-top:30px;
 }
 
 .btn{
