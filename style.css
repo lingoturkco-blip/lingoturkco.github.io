@@ -276,7 +276,6 @@ h1{
 /* Floating Logo */
 
 @keyframes float{
-
     0%{
         transform:translateY(0px);
     }
@@ -288,31 +287,14 @@ h1{
     100%{
         transform:translateY(0px);
     }
-
 }
 
-/* Footer Social */
+/* Footer */
 
-.footer-social{
-    margin-top:20px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:30px;
-}
-
-.footer-social a{
+footer{
+    background:#111827;
+    text-align:center;
+    padding:40px;
+    margin-top:80px;
     color:#bbb;
-    text-decoration:none;
-    font-size:18px;
-    transition:.3s;
-}
-
-.footer-social a i{
-    margin-right:8px;
-    color:#FFD54F;
-}
-
-.footer-social a:hover{
-    color:#FFD54F;
 }
