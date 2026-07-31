@@ -70,14 +70,13 @@ transition:.3s;
 /* Hero */
 
 header{
-    min-height:calc(100vh - 85px);
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    transform:translateY(-40px);
+min-height:calc(100vh - 85px);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding-top:30px;
+padding-bottom:60px;
 }
 
 .logo{
