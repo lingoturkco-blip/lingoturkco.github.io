@@ -168,14 +168,14 @@ section{
 section{
     max-width:1200px;
     margin:auto;
-    padding:60px 20px;
+    padding:40px 20px;
 }
 
 .title{
     text-align:center;
     color:#FFD54F;
     font-size:40px;
-    margin-bottom:100px;
+    margin-bottom:40px;
 }
 
 #about .card{
