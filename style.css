@@ -106,9 +106,8 @@ header{
 
 header h1{
     margin:0;
-    font-size:clamp(52px, 6vw, 72px);
+    font-size:72px !important;
     line-height:1.1;
-
     background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
