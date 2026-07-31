@@ -97,7 +97,7 @@ header{
 }
 
 header h1{
-    margin-top:30px;
+    margin-top:10px;
     font-size:72px;
     background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
     -webkit-background-clip:text;
