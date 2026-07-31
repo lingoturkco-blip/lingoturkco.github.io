@@ -90,7 +90,6 @@ header{
     width:350px;
     animation:float 4s ease-in-out infinite;
     margin-bottom:40px;
-}
 
     filter:
         drop-shadow(0 0 12px rgba(255,213,79,.18))
