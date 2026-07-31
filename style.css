@@ -66,11 +66,11 @@ body{
 }
 
 .menu a:hover{
-    color:#FFD54F;
+color:#FFD54F;
 }
 
 .menu a:hover::after{
-    width:100%;
+width:100%;
 }
 
 /* Hero */
