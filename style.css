@@ -304,9 +304,11 @@ line-height:1.5;
 /* Footer */
 
 footer{
-    background:#111827;
-    text-align:center;
-    padding:40px;
-    margin-top:80px;
-    color:#bbb;
+background:#111827;
+padding:35px;
+text-align:center;
+color:#bbb;
+margin-top:80px;
+border-top:1px solid rgba(255,213,79,.15);
 }
+
