@@ -145,7 +145,7 @@ section{
 }
 
 .btn:hover{
-    transform:translateY(-4px) scale(1.03);
+  transform: none;
 }
 
 .btn i{
