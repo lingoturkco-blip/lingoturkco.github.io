@@ -214,13 +214,12 @@ section{
 }
 
 .card h2{
-
     color:#FFD54F;
-
     margin-bottom:18px;
-
-    font-size:28px;
-
+    font-size:22px;
+    display:flex;
+    align-items:center;
+    gap:12px;
 }
 
 .card p{
