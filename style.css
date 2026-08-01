@@ -90,7 +90,7 @@ header{
 }
 
 .logo img{
-    width:400px;
+    width:380px;
     max-width:90%;
     animation:float 4s ease-in-out infinite;
 }
