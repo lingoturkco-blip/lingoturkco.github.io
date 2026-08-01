@@ -140,8 +140,8 @@ header h1{
 }
 
 .btn:hover{
-    transform:translateY(-5px);
-    box-shadow:0 12px 30px rgba(255,213,79,.35);
+    transform:translateY(-6px) scale(1.05);
+    box-shadow:0 15px 35px rgba(255,213,79,.4);
 }
 
 /* =========================
