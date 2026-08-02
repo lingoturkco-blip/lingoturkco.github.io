@@ -102,37 +102,67 @@ header{
 
     text-align:center;
 
-    padding:40px 20px;
+    padding:60px 20px;
+}
+
+.logo{
+    margin-bottom:30px;
 }
 
 .logo img{
-    width:380px;
+    width:360px;
     max-width:90%;
+
     animation:float 4s ease-in-out infinite;
+
+    filter:
+        drop-shadow(0 0 12px rgba(255,213,79,.18))
+        drop-shadow(0 12px 25px rgba(0,0,0,.25));
 }
 
 header h1{
-    background:linear-gradient(135deg,#FFF6BF,#FFD54F,#FFC107);
+    max-width:900px;
+
+    font-size:clamp(42px,6vw,72px);
+
+    line-height:1.15;
+
+    font-weight:800;
+
+    background:linear-gradient(
+        135deg,
+        #FFF6BF,
+        #FFD54F,
+        #FFC107
+    );
+
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
+    background-clip:text;
+
+    margin-bottom:25px;
 }
 
 .subtitle{
-    max-width:900px;
-    font-size:28px;
+    max-width:850px;
+
+    font-size:24px;
+
+    color:#d1d5db;
+
     line-height:1.8;
-    margin-top:30px;
+
+    margin-bottom:45px;
 }
 
-/* =========================
-   Buttons
-========================= */
+/* ==========================================
+   BUTTONS
+========================================== */
 
 .buttons{
-    margin-top:45px;
-
     display:flex;
     justify-content:center;
+    align-items:center;
     gap:20px;
     flex-wrap:wrap;
 }
@@ -140,24 +170,47 @@ header h1{
 .btn{
     display:inline-flex;
     align-items:center;
-    gap:10px;
+    justify-content:center;
+    gap:12px;
 
-    padding:15px 30px;
+    padding:16px 34px;
 
-    background:#FFD54F;
+    background:linear-gradient(
+        135deg,
+        #FFD54F,
+        #FFC107
+    );
+
     color:#111827;
 
-    text-decoration:none;
-    font-weight:bold;
+    font-size:18px;
+    font-weight:700;
 
-    border-radius:12px;
+    border-radius:14px;
 
-    transition:.3s;
+    transition:
+        transform .3s,
+        box-shadow .3s,
+        filter .3s;
+
+    box-shadow:
+        0 12px 28px rgba(255,213,79,.25);
+}
+
+.btn i{
+    font-size:22px;
 }
 
 .btn:hover{
-    transform:translateY(-6px) scale(1.05);
-    box-shadow:0 15px 35px rgba(255,213,79,.4);
+
+    transform:
+        translateY(-6px)
+        scale(1.05);
+
+    filter:brightness(1.05);
+
+    box-shadow:
+        0 18px 35px rgba(255,213,79,.4);
 }
 
 /* =========================
