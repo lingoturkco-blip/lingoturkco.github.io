@@ -328,30 +328,63 @@ font-size:22px;
 
 <footer>
 
-    <h2>Lingo Turkco</h2>
+footer{
+    background:#111827;
+    border-top:1px solid rgba(255,213,79,.15);
+    padding:60px 20px;
+    margin-top:80px;
+    text-align:center;
+}
 
-    <p>Learn English with Turkish explanations.</p>
+footer h2{
+    color:#FFD54F;
+    font-size:36px;
+    margin-bottom:15px;
+}
 
-    <div class="footer-links">
-        <a href="#home">Home</a>
-        <a href="#courses">Courses</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
+footer p{
+    color:#d1d5db;
+    font-size:18px;
+    margin:12px 0;
+}
 
-    <div class="footer-social">
-        <a href="https://instagram.com/lingoturkco" target="_blank">
-            📷 Instagram
-        </a>
+.footer-links{
+    margin:30px 0;
+}
 
-        <a href="https://t.me/LingoTurkco" target="_blank">
-            ✈ Telegram
-        </a>
-    </div>
+.footer-links a{
+    color:#ffffff;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    transition:.3s;
+}
 
-    <p class="copyright">
-        © 2026 Lingo Turkco. All rights reserved.
-    </p>
+.footer-links a:hover{
+    color:#FFD54F;
+}
+
+.footer-social{
+    margin:30px 0;
+}
+
+.footer-social a{
+    color:#ffffff;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.footer-social a:hover{
+    color:#FFD54F;
+}
+
+.copyright{
+    margin-top:25px;
+    color:#9ca3af;
+    font-size:16px;
+}
 
 </footer>
 /* =========================
