@@ -230,33 +230,36 @@ font-size:22px;
 ========================= */
 
 
+#about{
+    padding:100px 20px;
+}
+
 #about .card{
-    max-width:900px;
+    max-width:850px;
     margin:auto;
-    padding:45px 55px;
-    min-height:auto;      /* این خط را اضافه کن */
-
+    padding:55px;
     text-align:center;
+
     background:#1f2a3d;
+    border:1px solid rgba(255,213,79,.18);
+    border-radius:24px;
 
-    border:1px solid rgba(255,213,79,.15);
-    border-radius:22px;
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
 
-    box-shadow:0 15px 40px rgba(0,0,0,.35);
-    transition:.35s;
+    transition:.35s ease;
 }
 
 #about .card:hover{
-    transform:translateY(-6px);
+    transform:translateY(-8px);
     border-color:#FFD54F;
-    box-shadow:0 20px 45px rgba(255,213,79,.15);
+    box-shadow:0 25px 55px rgba(255,213,79,.15);
 }
 
 #about .card p{
-    max-width:760px;      /* متن خیلی کشیده نشود */
-    margin:0 auto 18px;
+    max-width:700px;
+    margin:0 auto 26px;
 
-    font-size:20px;
+    font-size:21px;
     line-height:1.9;
     color:#e5e7eb;
 }
