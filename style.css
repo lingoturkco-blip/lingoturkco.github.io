@@ -103,13 +103,13 @@ header{
 }
 
 .logo{
-    margin-bottom:40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .logo img{
     width:360px;
     max-width:90%;
-
     animation:float 4s ease-in-out infinite;
 
     filter:
