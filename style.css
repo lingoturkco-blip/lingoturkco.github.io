@@ -272,10 +272,54 @@ font-size:22px;
    Contact
 ========================= */
 
-#contact .buttons{
+.contact-card{
+    max-width:700px;
+    margin:auto;
+    padding:45px;
+    text-align:center;
 
-    margin-top:20px;
+    background:#1f2a3d;
+    border:1px solid rgba(255,213,79,.15);
+    border-radius:22px;
 
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.contact-card h2{
+    color:#FFD54F;
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.contact-card p{
+    font-size:20px;
+    line-height:1.8;
+    color:#e5e7eb;
+    margin-bottom:35px;
+}
+
+.contact-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.contact-buttons a{
+    text-decoration:none;
+    color:#fff;
+    background:#FFD54F;
+    color:#111827;
+    padding:14px 28px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.contact-buttons a:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(255,213,79,.35);
 }
 
 /* =========================
