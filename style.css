@@ -229,26 +229,29 @@ font-size:22px;
    About
 ========================= */
 
+
 #about .card{
     max-width:900px;
     margin:auto;
-    padding:40px;
+    padding:45px 55px;
     text-align:center;
-    border-radius:20px;
+
     background:#1f2a3d;
     border:1px solid rgba(255,213,79,.15);
+    border-radius:22px;
 
-    box-shadow:0 12px 30px rgba(0,0,0,.35);
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
     transition:.35s;
 }
 
 #about .card:hover{
     transform:translateY(-6px);
     border-color:#FFD54F;
+    box-shadow:0 20px 45px rgba(255,213,79,.15);
 }
 
 #about .card p{
-    font-size:20px;
+    font-size:21px;
     line-height:1.8;
     color:#e5e7eb;
     margin-bottom:18px;
