@@ -2,19 +2,33 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
     scroll-behavior:smooth;
 }
 
 body{
+    font-family:Arial, Helvetica, sans-serif;
     background:#0f172a;
-    color:#fff;
-    line-height:1.6;
+    color:#ffffff;
+    line-height:1.7;
+    overflow-x:hidden;
 }
 
-/* =========================
-   Navbar
-========================= */
+/* ==========================================
+   LINKS
+========================================== */
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* ==========================================
+   NAVBAR
+========================================== */
 
 .navbar{
     position:sticky;
@@ -27,29 +41,31 @@ body{
 
     padding:20px 60px;
 
-    background:rgba(17,24,39,.85);
-    backdrop-filter:blur(12px);
+    background:rgba(17,24,39,.88);
+    backdrop-filter:blur(14px);
 
     border-bottom:1px solid rgba(255,213,79,.15);
 }
 
 .brand{
-    color:#FFD54F;
     font-size:30px;
-    font-weight:bold;
+    font-weight:700;
+    color:#FFD54F;
+    letter-spacing:.5px;
 }
 
 .menu{
     display:flex;
+    align-items:center;
+    gap:32px;
     list-style:none;
-    gap:30px;
 }
 
 .menu a{
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
     position:relative;
+    color:#ffffff;
+    font-size:17px;
+    font-weight:600;
     transition:.3s;
 }
 
@@ -57,11 +73,11 @@ body{
     content:"";
     position:absolute;
     left:0;
-    bottom:-6px;
+    bottom:-8px;
     width:0;
     height:2px;
     background:#FFD54F;
-    transition:.3s;
+    transition:.35s ease;
 }
 
 .menu a:hover{
