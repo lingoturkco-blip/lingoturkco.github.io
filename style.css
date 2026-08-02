@@ -237,8 +237,8 @@ font-size:22px;
 #about .card{
     max-width:850px;
     margin:auto;
-    padding:55px;
-    text-align:center;
+    padding:55px 60px;
+    text-align:left;
 
     background:#1f2a3d;
     border:1px solid rgba(255,213,79,.18);
@@ -259,7 +259,7 @@ font-size:22px;
     max-width:700px;
     margin:0 auto 26px;
 
-    font-size:21px;
+    font-size:20px;
     line-height:1.9;
     color:#e5e7eb;
 }
