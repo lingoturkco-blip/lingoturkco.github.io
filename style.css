@@ -234,9 +234,11 @@ font-size:22px;
     max-width:900px;
     margin:auto;
     padding:45px 55px;
-    text-align:center;
+    min-height:auto;      /* این خط را اضافه کن */
 
+    text-align:center;
     background:#1f2a3d;
+
     border:1px solid rgba(255,213,79,.15);
     border-radius:22px;
 
@@ -251,15 +253,18 @@ font-size:22px;
 }
 
 #about .card p{
+    max-width:760px;      /* متن خیلی کشیده نشود */
+    margin:0 auto 18px;
+
     font-size:21px;
     line-height:1.8;
     color:#e5e7eb;
-    margin-bottom:18px;
 }
 
 #about .card p:last-child{
     margin-bottom:0;
 }
+
 /* =========================
    Contact
 ========================= */
