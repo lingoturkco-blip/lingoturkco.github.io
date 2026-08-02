@@ -326,51 +326,34 @@ font-size:22px;
    Footer
 ========================= */
 
-footer{
-    margin-top:80px;
-    padding:50px 20px;
-    text-align:center;
-    border-top:1px solid rgba(255,213,79,.15);
-    background:#111827;
-}
+<footer>
 
-footer h2{
-    color:#FFD54F;
-    font-size:36px;
-    margin-bottom:12px;
-}
+    <h2>Lingo Turkco</h2>
 
-footer p{
-    color:#d1d5db;
-    font-size:19px;
-    margin:10px 0;
-}
+    <p>Learn English with Turkish explanations.</p>
 
-.footer-links,
-.footer-social{
-    margin:20px 0;
-}
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
 
-.footer-links a,
-.footer-social a{
-    color:#fff;
-    text-decoration:none;
-    margin:0 12px;
-    font-size:18px;
-    transition:.3s;
-}
+    <div class="footer-social">
+        <a href="https://instagram.com/lingoturkco" target="_blank">
+            📷 Instagram
+        </a>
 
-.footer-links a:hover,
-.footer-social a:hover{
-    color:#FFD54F;
-}
+        <a href="https://t.me/LingoTurkco" target="_blank">
+            ✈ Telegram
+        </a>
+    </div>
 
-footer .copyright{
-    margin-top:25px;
-    color:#9ca3af;
-    font-size:17px;
-}
+    <p class="copyright">
+        © 2026 Lingo Turkco. All rights reserved.
+    </p>
 
+</footer>
 /* =========================
    Animation
 ========================= */
