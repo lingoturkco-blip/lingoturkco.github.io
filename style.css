@@ -93,13 +93,13 @@ img{
 ========================= */
 
 header{
-    min-height:100vh;
+    min-height:calc(100vh - 90px);
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:100vh + 90px + 40px
+    padding:40px 20px;
 }
 
 .logo{
