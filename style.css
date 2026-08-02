@@ -117,13 +117,33 @@ header{
         drop-shadow(0 12px 25px rgba(0,0,0,.25));
 }
 
+header{
+    min-height:calc(100vh - 90px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.logo{
+    margin-bottom:25px;
+}
+
+.logo img{
+    width:300px;
+    max-width:85%;
+    height:auto;
+    animation:float 4s ease-in-out infinite;
+}
+
 header h1{
     max-width:1000px;
-    width:100%;
-
-    font-size:clamp(42px,6vw,72px);
+    font-size:clamp(46px,5vw,78px);
     line-height:1.15;
     font-weight:800;
+    margin-bottom:25px;
 
     background:linear-gradient(
         135deg,
@@ -135,20 +155,14 @@ header h1{
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     background-clip:text;
-
-    margin-bottom:25px;
 }
 
 .subtitle{
     max-width:850px;
-
     font-size:24px;
-
-    color:#d1d5db;
-
     line-height:1.8;
-
-    margin-bottom:45px;
+    color:#d1d5db;
+    margin-bottom:40px;
 }
 
 /* ==========================================
