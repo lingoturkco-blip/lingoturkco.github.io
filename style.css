@@ -106,7 +106,7 @@ header{
 }
 
 .logo{
-    margin-bottom:30px;
+    margin-bottom:40px;
 }
 
 .logo img{
@@ -705,7 +705,10 @@ footer p{
     }
 
     .logo img{
-        width:220px;
+    width:380px;
+    max-width:90%;
+    margin-top:40px;   /* فاصله از منو */
+    animation:float 4s ease-in-out infinite;
     }
 
     header h1{
