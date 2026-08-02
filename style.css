@@ -118,7 +118,7 @@ header{
 }
 
 header h1{
-    max-width:80px;
+    max-width:300px;
 
     font-size:clamp(42px,6vw,72px);
 
