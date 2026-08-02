@@ -219,12 +219,10 @@ section{
 
 .card p{
 
-    color:#ddd;
-
-    font-size:18px;
-
-    line-height:1.8;
-
+font-size:22px;
+    line-height:2;
+    color:#e5e7eb;
+    margin-bottom:22px;
 }
 
 /* =========================
