@@ -205,7 +205,8 @@ header h1{
 ========================================== */
 
 .title{
-    text-align:center;
+    text-align:left;
+    margin-left:0;
     font-size:clamp(32px,4vw,48px);
     color:var(--primary);
     margin-bottom:60px;
