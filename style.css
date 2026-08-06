@@ -92,24 +92,31 @@ img{
    Hero
 ========================= */
 
-header{
+/* ==========================================
+   HERO
+========================================== */
+
+.hero{
     min-height:calc(100vh - 90px);
+
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+
     text-align:center;
     padding:40px 20px;
 }
 
 .logo{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin:40px 0 30px;
 }
 
 .logo img{
-    width:360px;
+    width:340px;
     max-width:90%;
+    height:auto;
+
     animation:float 4s ease-in-out infinite;
 
     filter:
@@ -117,33 +124,13 @@ header{
         drop-shadow(0 12px 25px rgba(0,0,0,.25));
 }
 
-header{
-    min-height:calc(100vh - 90px);
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:30px 20px;
-}
-
-.logo{
-    margin-bottom:25px;
-}
-
-.logo img{
-    width:300px;
-    max-width:85%;
-    height:auto;
-    animation:float 4s ease-in-out infinite;
-}
-
-header h1{
+.hero h1{
     max-width:1000px;
+    margin-bottom:25px;
+
     font-size:clamp(46px,5vw,78px);
     line-height:1.15;
     font-weight:800;
-    margin-bottom:25px;
 
     background:linear-gradient(
         135deg,
@@ -159,10 +146,11 @@ header h1{
 
 .subtitle{
     max-width:850px;
+    margin-bottom:40px;
+
     font-size:24px;
     line-height:1.8;
-    color:#d1d5db;
-    margin-bottom:40px;
+    color:var(--text);
 }
 
 /* ==========================================
