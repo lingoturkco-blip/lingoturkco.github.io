@@ -88,10 +88,6 @@ img{
     width:100%;
 }
 
-/* =========================
-   Hero
-========================= */
-
 /* ==========================================
    HERO
 ========================================== */
@@ -160,55 +156,35 @@ img{
 .buttons{
     display:flex;
     justify-content:center;
-    align-items:center;
-    gap:20px;
     flex-wrap:wrap;
+    gap:20px;
 }
 
 .btn{
     display:inline-flex;
     align-items:center;
-    justify-content:center;
-    gap:12px;
+    gap:10px;
 
-    padding:16px 34px;
+    padding:15px 32px;
 
-    background:linear-gradient(
-        135deg,
-        #FFD54F,
-        #FFC107
-    );
-
+    background:var(--primary);
     color:#111827;
+    text-decoration:none;
 
-    font-size:18px;
     font-weight:700;
+    border-radius:50px;
 
-    border-radius:14px;
-
-    transition:
-        transform .3s,
-        box-shadow .3s,
-        filter .3s;
-
-    box-shadow:
-        0 12px 28px rgba(255,213,79,.25);
-}
-
-.btn i{
-    font-size:22px;
+    transition:all .35s ease;
 }
 
 .btn:hover{
+    transform:translateY(-5px);
+    background:var(--primary-dark);
+    box-shadow:0 12px 30px rgba(255,213,79,.35);
+}
 
-    transform:
-        translateY(-6px)
-        scale(1.05);
-
-    filter:brightness(1.05);
-
-    box-shadow:
-        0 18px 35px rgba(255,213,79,.4);
+.btn i{
+    font-size:20px;
 }
 
 /* =========================
